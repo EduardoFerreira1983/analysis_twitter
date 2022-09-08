@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  h1{
+    color: #292398;
+  }
 }
 
 .App-logo {
@@ -35,4 +38,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.chart-container{
+  margin-top: 20px;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.structure-img{ 
+  margin-top: 60px;
 }
